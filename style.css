@@ -41,6 +41,10 @@ div.bottom-container > input.btn:disabled {
   width: 23%;
 }
 
+.btn#ENTER, .btn#INFIX {
+  padding-left: 20px;
+}
+
 .btn-opr:hover {
   background-color: #D9BBB5;
   color: white;
@@ -66,11 +70,4 @@ input#txtbx {
   text-align: right;
   margin: 20px 25px 20px 25px;
   align-content: center;
-}
-
-/* Use to display inputted equation later */
-div.main-container > h3#eqn {
-  text-align: center;
-  padding: 20px 0px 0px 0px;
-  margin: auto;
 }
