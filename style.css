@@ -1,0 +1,64 @@
+
+.main-container {
+  background-color: #84B7C1;
+  margin: auto;
+  padding: 25px, 50px, 25px;
+  width: 500px;
+}
+
+.btn-container {
+  background-color: #338899;
+  padding: 10px 20px 10px;
+  align-content: center;
+  width: 450px;
+  margin: auto;
+}
+
+.bottom-container {
+  width: 450px;
+  margin: auto;
+  padding: 10px 10px 10px 80px;
+}
+
+div.bottom-container > input.btn {
+  border: solid;
+  border-color: white;
+  background-color: #338899;
+}
+
+.btn, .btn-opr {
+  padding: 15px 30px 15px;
+  /*margin: 2px;*/
+  margin-left: 3px;
+  background-color: white;
+  border: none;
+  text-align: center;
+  width: 23%;
+}
+
+.btn-opr:hover {
+  background-color: #D9BBB5;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #B68C90;
+  color: white;
+}
+
+input {
+  font-size: 120%;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+input#txtbx {
+  display: inline-block;
+  border-color: black;
+  height: 50px;
+  width: 415px;
+  text-align: right;
+  margin: 20px 25px 20px 25px;
+  align-content: center;
+}
