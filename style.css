@@ -25,6 +25,11 @@ div.bottom-container > input.btn {
   border-color: white;
   background-color: #338899;
 }
+div.bottom-container > input.btn:disabled {
+  background-color: grey;
+  color: black;
+  border-color: grey;
+}
 
 .btn, .btn-opr {
   padding: 15px 30px 15px;
@@ -61,4 +66,11 @@ input#txtbx {
   text-align: right;
   margin: 20px 25px 20px 25px;
   align-content: center;
+}
+
+/* Use to display inputted equation later */
+div.main-container > h3#eqn {
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+  margin: auto;
 }
